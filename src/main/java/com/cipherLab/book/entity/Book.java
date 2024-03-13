@@ -1,4 +1,4 @@
-package com.cipherLab.book.Entity;
+package com.cipherLab.book.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -19,5 +19,6 @@ public class Book {
     private @Id @GeneratedValue Long id;
     private String name;
     private String genre;
+    private String cellNumber;
     private LocalDateTime lastChangeTs;
 }
